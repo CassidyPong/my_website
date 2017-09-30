@@ -33,7 +33,7 @@ Please prepare your system for the sample site.
 GitHub:
 (From command prompt, you have to have "git" command already installed)
 
-git clone https://github.com/CassidyPong/my-website.git
+git clone https://github.com/<account>/<repository>.git
 
 
 After the source code copied to your machine, you can call
@@ -74,8 +74,8 @@ Follow the instructions: https://devcenter.heroku.com/articles/git
 1. Install heroku toolbelt.
 2. > cd to the code folder
 3. > heroku login
-4. > heroku git:remote -a facilitron-marketing-dev  (to connect the app to existing repository)
-4.b > heroku git:remote -a facilitron-marketing-prod  (to connect the app to production repository)
+4. > heroku git:remote -a <repository>  (to connect the app to existing repository)
+
 
 Then we can push the code, restart the app.
 
@@ -94,11 +94,4 @@ To restart heroku dyno;
 
 heroku restart
 
-=================================================
 
-Enviroment variables
-NODE_ENV: 'production' or else
-	- if NODE_ENV='production', we assume this is production site. Otherwise it is 'development' environment
-	- in production env: the url will be forced to https, unless another env variable (USE_HTTP) has been set
-USE_HTTP: 'yes' or else
-	- if USE_HTTP='yes', the url won't be forced to https
