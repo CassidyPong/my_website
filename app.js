@@ -49,17 +49,17 @@ app.get('/env', function(req, res) {
 }); 
 
 // middle ware handler...
-
+/*
 app.use(function(req, res, next) {
 
 	if (app.USE_HTTPS) {
 		if (req.headers['x-forwarded-proto'] !== 'https') {    
 			return res.redirect(['https://', req.get('Host'), req.url].join(''));
 		}
-	} 
+	}
 
 	next();    
-});
+});*/
 
 //
 // We don't dynamically load controllers.

@@ -2,7 +2,7 @@
 
 const cluster = require('cluster');
 const numCPUs = require('os').cpus().length;
-const maxThreads = process.env.THREADS?process.env.THREADS:4;
+const maxThreads = process.env.THREADS?process.env.THREADS:1;
 
 if (cluster.isMaster) {
 
@@ -26,8 +26,6 @@ if (cluster.isMaster) {
 
 } else {
 	//Do further processing.
-
-	var debug = require('debug')('facilitron');
 	var app = require('../app');
 	app.set('port', process.env.PORT || 5000);
 
