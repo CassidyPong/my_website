@@ -126,6 +126,7 @@ p {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+	
 }
 
 .dropdown-content a {
@@ -133,7 +134,22 @@ p {
     padding: 5px 5px;
     text-decoration: none;
     display: block;
+	font-family:'Poiret One', cursive;
+	font-size: 12pt;
+	font-weight:bold;
 }
+
+.dropdown-content a:hover {background-color: #C8C8BF}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #C8C8BF;
+}
+
+
 
 .dropdown-content a:hover {background-color: #C8C8BF}
 
