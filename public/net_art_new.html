@@ -4,11 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Net Art</title>
-  <link rel="icon" type="image/png" href="images/favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
   <link href="css/net_art_new.css" rel="stylesheet" media="screen" />
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
   <style>
   
 
@@ -78,27 +79,8 @@ body {
   <h3 class="light">“Everything you can imagine is real.” 
 ― Pablo Picasso </h3>
 
-<div id=about_me>
-	<a href=About_me.html style="text-decoration:none"><span class="aboutme-text">About Me</span></a>
-</div>
+<div id=navigation_menu></div>
 
-<div id=drop-area>
-<div class="dropdown">
-  <button class="dropbtn">Portfolio</button>
-  <div class="dropdown-content">
-	<ul id="otis">
-		<li> <a href=index.html>Home</a> </li>
-		<li> <a href=Triptych.html>Remix Triptych</a> </li>
-		<li> <a href=sound_animation.html>Animation with Sound</a> </li>
-		<li> <a href=play.html>CNC Play Project</a> </li>
-		<li> <a href="images/New Media Art Presentation.pdf" >New Media Art Presentation</a> </li>
-		<li> <a href=net_art_new.html>Net Art</a> </li>
-		<li> <a href=artwork.html>Artwork</a> </li>
-		<li> <a href=photography.html>Photography</a> </li>
-	</ul>
-  </div>
-</div>
-</div>
  <div id="bannerimage">
 
 	
@@ -209,6 +191,9 @@ body {
 		
 	</script>
 
- 
+<script> 
+  $("#navigation_menu").load("navigation_menu.html");
+</script>
+
 </body>
 </html>
