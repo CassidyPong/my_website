@@ -89,7 +89,21 @@ p {
 
 }
 
-#drop-area {display:block;
+.aboutme-text {
+	color: white;
+	padding: 26px;
+	font-size: 25px;
+	border: none;
+	cursor: pointer;
+	font-family:'Poiret One', cursive;
+	display:block;
+	position: absolute;
+	top:65px;
+	left: 77%;
+}
+
+#drop-area {
+	display:block;
 	position: absolute;
 	top:65px;
 	left: 70%;
