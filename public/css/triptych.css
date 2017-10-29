@@ -37,6 +37,11 @@ table, tr, td {
 	
 }
 
+video {
+	padding: 3em;
+	
+}
+
 #about_me {
 background-color: white;
     color: black;
