@@ -1,0 +1,235 @@
+h1 {
+  width: 80%;
+  text-align:center;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;left: 0;bottom: 0;right: 0;
+  color: white;
+  font-family: 'Patrick Hand SC', cursive;
+  font-weight:300;
+  font-size:3em;
+  padding-top: 5.5em;
+
+}
+
+.menu {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  background-color: #ada8ac;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  left: 0;
+  z-index: 50;
+  overflow-y: auto;
+  padding-bottom: 100px;
+}
+ 
+.menu.closed { left: -250px; }
+ 
+#toggle {
+  background-color: pink;
+  height: 100%;
+  min-height: 100%;
+  width: 100px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0px;
+  z-index: 25;
+  -webkit-transition: all .7s ease;
+  transition: all .7s ease;
+}
+ 
+#toggle:hover { cursor: pointer; }
+
+#toggle.closed {
+  left: 0px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .3;
+}
+ 
+.content {
+  width: 100%;
+  height: 100%;
+  margin-left: 0px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+ 
+.content.closed .text {
+  -webkit-transform: translateX(80px);
+  -ms-transform: translateX(80px);
+  transform: translateX(80px);
+}
+ 
+.text {
+  width: 60%;
+  margin: auto;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+ 
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 85px 0 0 40px;
+  padding-right: 40px;
+}
+ 
+.menu ul li {
+  color: floralwhite;
+  font-size: 25px;
+  margin: 0 0 5px 0;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  font-family: 'Patrick Hand SC', cursive;
+}
+ 
+.menu ul li:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+#wrapper {
+  height: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+ 
+#wrapper.closed { position: fixed; }
+ 
+ *::-moz-selection {
+ background-color: grey;
+ color: floralwhite;
+}
+ 
+*::selection {
+  background-color: grey;
+  color: floralwhite;
+}
+
+.classname a {
+	text-decoration:none;
+	
+}
+
+#img-banners{
+	padding: 3em;
+		
+}
+
+
+.img-wrap{
+	display:block;
+	position:relative;
+}
+.img-label{
+	position:absolute;
+	top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+	color:#fff;
+	font-size:40px;
+	font-family:'Poiret One', cursive;
+	font-weight: bold;
+}
+a.img-link:link,a.img-link:active,a.img-link:visited	{
+	
+	color:#fff;font-size:25px;font-weight: normal;text-decoration:none
+	
+}
+a.img-link:hover	{
+	text-decoration:underline
+	
+}
+
+.img	{
+	text-align:center;
+	padding: 1em;
+	
+}
+
+#heading {
+	width: 100%;
+	height: 60vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+#traditional {
+	width: 100%;
+	height: 25em;
+	background-size: 400% 400%;
+	
+}
+#sculptural {
+	width: 100%;
+	height: 25em;
+	background-size: 400% 400%;
+	
+}
+#digital {
+	width: 100%;
+	height: 25em;
+	background-size: 400% 400%;
+	
+}
+
+

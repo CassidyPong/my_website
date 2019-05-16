@@ -1,0 +1,81 @@
+
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cassidy Pong</title>
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand|Patrick+Hand+SC" rel="stylesheet">
+  <link href="css/sculpture.css" rel="stylesheet" media="screen" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/sculpture.css">
+
+</head>
+
+<body>
+
+<!-- Add your site or application content here -->
+
+<!--Side Scroll Menu ---------------->
+<div id="toggle"> </div>
+
+<div class="menu closed">
+	<ul>
+		<li><a href="index.html" class="img-link">Home </a></li>
+		<li><a href="portfolio.html" class="img-link">Portfolio</a></li>
+		<li><a href="about.html" class="img-link">About</a></li>
+		<li><a href="contact.html" class="img-link">Contact</a></li>
+	</ul>
+</div>
+
+<div id="wrapper">
+	<div class="content">
+		<div class="text">
+		</div>
+	</div>
+</div>
+<!---------------------------------------->
+
+<h1>SCULPTURAL WORKS</h1>
+
+
+
+<div id=hex></div>
+
+
+
+
+
+
+<script>
+$( "#toggle" ).click(function() {
+  $(".menu").toggleClass("closed");
+  $(this).toggleClass("closed");
+  $(".content").toggleClass("closed");
+  $("#wrapper").toggleClass("closed")
+});
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
+<script id="rendered-js" src="js/sculpture.js"></script>
+  
+</body>
+
+
+</html>
