@@ -5,6 +5,14 @@ h1 {
 	
 }
 
+h2 {
+	text-align:center;
+	font-family:'Poiret One', cursive;
+	padding-top: 2em;
+	font-size: 24pt;
+	
+}
+
 h3 {
 	text-align:center;
 	font-size: 12pt;
@@ -17,8 +25,10 @@ h3 {
 
 p {
 	text-align:center;
-	padding: 10em;
-	font-family:'Poiret One', cursive;
+	padding: 1em;
+	font-family:'Questrial', sans-serif;
+	padding-left: 10em;
+	padding-right: 10em;
 	
 }
 

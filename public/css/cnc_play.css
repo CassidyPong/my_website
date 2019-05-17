@@ -25,11 +25,12 @@ h3 {
 
 p {
 	text-align:left;
-	padding: 1em;
-	font-family:'Poiret One', cursive;
-	font-weight:bold;
-	font-size: 14pt;
-	
+	padding-top: 2em;
+	padding-left: 2em;
+	vertical-align:top;
+	font-family:'Questrial', sans-serif;
+	font-size:14pt;
+	line-height: 1.5em;
 }
 
 .video {
