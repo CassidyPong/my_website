@@ -13,6 +13,12 @@ h1 {
 
 }
 
+body {
+	background-color: #DCFEFF;
+	
+	
+}
+
 .menu {
   width: 250px;
   height: 100%;
@@ -168,6 +174,7 @@ a.img-link:hover	{
 #heading {
 	width: 100%;
 	height: 60vh;
+	top:-10px;
 	color: #fff;
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	background-size: 400% 400%;
