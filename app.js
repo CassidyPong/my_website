@@ -26,7 +26,7 @@ app.use(bodyParser.json({limit: '50mb'}));
 app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
 app.locals._ = _;
 app.locals.moment =moment;
-//app.use(favicon(path.join(__dirname, 'public','images','favicon.ico')));
+app.use(favicon(path.join(__dirname, 'public','images','favicon.ico')));
 app.use(json2xls.middleware);
 //if (process.env.PORT != 80 && process.env.PORT != 443)
 if (app.env == 'development' || !app.USE_HTTPS)
