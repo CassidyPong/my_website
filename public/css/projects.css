@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  background: rgb(200,234,255);
+  background: linear-gradient(0deg, rgba(71, 185, 255, 0.58) 0%, #d99292 25%, rgba(88,74,74,1) 55%) fixed;
+  height:100%;
+  padding-bottom: 5em;
+  /*
+	background: rgb(242,242,242);
+  background: linear-gradient(229deg, rgba(242,242,242,1) 0%, rgba(222,162,162,1) 41%, rgba(91,67,67,1) 100%);*/
+	
+}
+
+h1 {
+  margin:0 auto;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat Alternates', cursive;
+  font-weight:300;
+  font-size:3em;
+  padding-top: 1em;
+}
+
+
+h3, p {
+  margin:0 auto;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat Alternates', cursive;
+  font-size:1.5em;
+  padding-top: 1em;
+}
+
+p{
+  margin:0 auto;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat Alternates', cursive;
+  font-size:18px;
+  padding-top: 1.5em;
+  width: 70%;
+
+}
+
+.flexbox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+img{
+  margin: 20px;
+  transition: all 0.5s;
+  width: 500px;
+  height: 300px;
+}
+
+video{
+  margin: 20px;
+  transition: all 0.5s;
+  width: 600px;
+  height: 400px;
+}
+
+.cncimg{
+  width: 375px;
+  height: 500px;
+}
+

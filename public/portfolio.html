@@ -5,7 +5,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Cassidy Pong</title>
-  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand|Patrick+Hand+SC" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|Patrick+Hand|Vollkorn+SC&display=swap" rel="stylesheet">
+  <link href="css/nav.css" rel="stylesheet" media="screen" /> 
   <link href="css/portfolio.css" rel="stylesheet" media="screen" />
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
 
@@ -14,88 +17,43 @@
 <body>
 
 <!-- Add your site or application content here -->
+<!--Navigation-->
+<div class="container background circleBehind" id="nav">
+  <a href="index.html">HOME</a>
+  <a href="portfolio.html">PORTFOLIO</a>
+  <a href="about.html">ABOUT</a>
+  <a href="contact.html">CONTACT</a>
+</div>
+
+
 <h1>PORTFOLIO</h1>
 
-<!--Side Scroll Menu ---------------->
-<div id="toggle"> </div>
-
-<div class="menu closed">
-	<ul>
-		<li><a href="index.html" class="img-link">Home </a></li>
-		<li><a href="portfolio.html" class="img-link">Portfolio</a></li>
-		<li><a href="about.html" class="img-link">About</a></li>
-		<li><a href="contact.html" class="img-link">Contact</a></li>
-	</ul>
-</div>
-
-<div id="wrapper">
-	<div class="content">
-		<div class="text">
-		</div>
-	</div>
-</div>
-<!---------------------------------------->
-
-
-
-<div id=heading></div>
-
-
-<div id=img-banners>  
-	<div class="img-wrap">
-		<div class="img-label"><a href="traditional.html" class="img-link">TRADITIONAL ARTWORK</a>
-			</div>
-	<div class="img">
-		<img src="images/artwork_banner.jpg" align="center">
-			</div>
-</div>
-
-<div id=img-banners> 
-	<div class="img-wrap">
-		<div class="img-label"><a href="sculpture.html" class="img-link">SCULPTURAL WORKS</a>
-			</div>
-	<div class="img">
-		<img src="images/Art_75_Non_Linear_Banner.jpg" align="center"></div>
-			</div>
-</div>
-
-<div id=img-banners> 
-	<div class="img-wrap">
-		<div class="img-label"><a href="digital.html" class="img-link">DIGITAL MEDIA PROJECTS</a>
-			</div>
-	<div class="img">
-		<img src="images/net_art_banner.jpg" align="center"></div>
-			</div>
-</div>
-
-
-<script>
-$( "#toggle" ).click(function() {
-  $(".menu").toggleClass("closed");
-  $(this).toggleClass("closed");
-  $(".content").toggleClass("closed");
-  $("#wrapper").toggleClass("closed")
-});
-</script>
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-
-</body>
-
-
+<div class="flexbox">
+  <a href="triptych.html"><img src="images/p1_1.jpg" alt=""></a>
+  <a href="sound_animation.html"><img src="images/p1_2.jpg" alt=""></a>
+  <a href="cnc_play.html"><img src="images/cnc_chroma_banner.jpg" alt=""></a>
+  <a href="net_art.html"><img src="images/net_art_banner.jpg" alt=""></a>
+  <a href="non_linear_narrative.html"><img src="images/Art_75_Non_Linear_Banner.jpg" alt=""></a>
+  <a href="experimental_film.html"><img src="images/Experimental_Banner.jpg" alt=""></a>
+  <a href="penguin.html"><img src="images/Art_75_3D_Print_Banner.jpg" alt=""></a>
+  <a href="snow_globe.html"><img src="images/Art_102_Model_Banner.jpg" alt=""></a>
+  <a href="human_mind.html"><img src="images/artwork_human_mind_banner.jpg" alt=""></a>
+  <a href="who_am_i.html"><img src="images/Who_Am_I_Banner.jpg" alt=""></a>
+  <a href=""><img src="" alt=""></a>
+  <a href=""><img src="" alt=""></a>
+  <a href=""><img src="" alt=""></a>
+  <a href=""><img src="" alt=""></a>
+  <a href=""><img src="" alt=""></a>
+  <a href=""><img src="" alt=""></a>
+  <a href=""><img src="" alt=""></a>
   
+</div>
+
+
+
+<footer id="footer">
+  <span>CassidyPong(C) All rights Reserved</span>
+</footer>
+
+</body>  
 </html>

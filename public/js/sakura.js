@@ -122,7 +122,6 @@ renderSpec.setSize = function(w, h) {
     renderSpec.halfArray[1] = renderSpec.halfHeight;
     renderSpec.halfArray[2] = renderSpec.halfWidth / renderSpec.halfHeight;
 };
-
 function deleteRenderTarget(rt) {
     gl.deleteFramebuffer(rt.frameBuffer);
     gl.deleteRenderbuffer(rt.renderBuffer);
@@ -800,3 +799,4 @@ window.addEventListener('load', function(e) {
 (function (w, r) {
     w['r'+r] = w['r'+r] || w['webkitR'+r] || w['mozR'+r] || w['msR'+r] || w['oR'+r] || function(c){ w.setTimeout(c, 1000 / 60); };
 })(window, 'equestAnimationFrame');
+

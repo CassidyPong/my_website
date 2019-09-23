@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400|Raleway:300);
+
+$btn-width: 250px !default;
+$btn-height: 80px !default;
+$btn-full: $btn-height+$btn-width !default;
+$btn-half: $btn-full/2 !default;
+$bg-color: #eeeeee !default;
+
+html {
+  padding-top: 50px;
+  font-family: 'Open Sans', Helvetica, arial, sans-serif;
+  text-align: center;
+  background-color: $bg-color;
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+    transition: 0.5s ease-in-out;
+  }
+}
+
+*:before,
+*:after {
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+  line-height: $btn-height;
+  color: black;
+}
+
+.centerer {
+  height:auto;
+  display:table;
+  width: 7%;
+  text-align:center;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;left: 0;bottom: 0;right: 0;
+  color: white;
+  font-family: 'Montserrat Alternates', serif;
+  font-weight:300;
+  font-size:2em;
+  top:5em;
+}
+
+
+[class^="btn-"] {
+  position: auto;
+  display: table;
+  overflow: hidden;
+  margin: 0 auto;
+  color:#FF998A;
+  width: 5%;
+}
+
+/* 
+ * Hover.css - Demo Page
+ * Author: Ian Lunn @IanLunn
+ * Author URL: https://ianlunn.co.uk/
+ * Github: https://github.com/IanLunn/Hover
+ * Made available under a MIT License:
+ * https://www.opensource.org/licenses/mit-license.php
+ * Hover.css Copyright Ian Lunn 2014.Outline Out 
+ */
+
+.hvr-outline-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+.hvr-outline-out:before {
+  content: '';
+  position: absolute;
+  border: #FF998A solid 4px;
+  top: -6px;
+  right: -6px;
+  bottom: -6px;
+  left: -6px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left;
+}
+.hvr-outline-out:hover:before, .hvr-outline-out:focus:before, .hvr-outline-out:active:before {
+  top: -12px;
+  right: -12px;
+  bottom: -12px;
+  left: -12px;
+}
+
+
