@@ -29,6 +29,18 @@ html, body{
     z-index:0;
 }
 
+.flexbox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+img{
+  width: 250px;
+  height: 300px;
+}
+
 .text{
   height:auto;
   display:table;
